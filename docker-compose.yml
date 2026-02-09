@@ -2,5 +2,5 @@ services:
   backend:
     build: ./backend
     ports:
-      - "8000:8000"
+      - "9000:9000"
     working_dir: /app
