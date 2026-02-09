@@ -5,7 +5,7 @@ import {
   PoseLandmarker,
 } from "@mediapipe/tasks-vision";
 
-const SOCKET_URL = "http://localhost:8000";
+const SOCKET_URL = "http://localhost:9000";
 
 // Match your Python: landmarks 11..23 inclusive (13 points)
 const LANDMARK_IDX = [11,12,13,14,15,16,17,18,19,20,21,22,23];
